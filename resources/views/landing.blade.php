@@ -2,36 +2,36 @@
 @section('title','welcome')
 @section('content')
     <div class="page-header" filter-color="orange">
-        <div class="page-header-image" style="background-image:url({{URL::asset('nowui/assets/img/moyale.jpg')}})"></div>
+        <div class="page-header-image" style="background-image:url({{URL::asset('nowui/assets/img/benz2.jpg')}})"></div>
         <div class="container">
             <div class="col-md-4 content-center">
                 <div class="card card-login card-plain">
                     <form class="form" method="" action="">
                         <div class="header header-primary text-center">
-                            <h1 class="h1-seo">*483*9#</h1>
-                            <h3>Start the journey...</h3>
+                            {{--<h1 class="h1-seo">Join us</h1>--}}
+                            {{--<h3>The Drive...</h3>--}}
                             <br>
                             {{--<div class="logo-container">--}}
                             {{--<img src="{{URL::asset('nowui/assets/img/now-logo.png')}}" alt="">--}}
                             {{--</div>--}}
 
                         </div>
-                        <div class="content">
-                            <div class="input-group form-group-no-border input-lg">
-                                <span class="input-group-addon">
-                                    <i class="now-ui-icons users_circle-08"></i>
-                                </span>
-                                <input type="text" class="form-control" placeholder="search yourname.com/.co.ke...">
-                            </div>
+                        {{--<div class="content">--}}
+                            {{--<div class="input-group form-group-no-border input-lg">--}}
+                                {{--<span class="input-group-addon">--}}
+                                    {{--<i class="now-ui-icons users_circle-08"></i>--}}
+                                {{--</span>--}}
+                                {{--<input type="text" class="form-control" placeholder="search yourname.com/.co.ke...">--}}
+                            {{--</div>--}}
                             {{--<div class="input-group form-group-no-border input-lg">--}}
                             {{--<span class="input-group-addon">--}}
                             {{--<i class="now-ui-icons text_caps-small"></i>--}}
                             {{--</span>--}}
                             {{--<input type="text" placeholder="Last Name..." class="form-control" />--}}
                             {{--</div>--}}
-                        </div>
+                        {{--</div>--}}
                         <div class="footer text-center">
-                            <a href="#pablo" class="btn btn-primary btn-round btn-lg btn-block">Search</a>
+                            <a href="#pablo" class="btn btn-primary btn-round btn-lg btn-block">Join Us</a>
                         </div>
                         {{--<div class="pull-left">--}}
                         {{--<h6>--}}
